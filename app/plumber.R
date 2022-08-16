@@ -5,8 +5,6 @@ normalMean <- function(samples=10){
   mean(data)
 }
 
-#* Plot out data from the iris dataset
-#* @param spec If provided, filter the data to only this species (e.g. 'setosa')
 #* @get /plot
 #* @serializer png
 randomPlot <- function() {
